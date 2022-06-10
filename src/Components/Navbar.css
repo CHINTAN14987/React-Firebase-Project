@@ -1,0 +1,46 @@
+.nav {
+  overflow: hidden;
+  background-color: #0e002b;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav a:hover {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.nav a.active {
+  background-color: #0e002b;
+  color: #ffffff;
+}
+.nav .login-container {
+  float: right;
+}
+.nav input[type="text"],
+.nav input[type="password"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 120px;
+}
+.nav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #1c87c9;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.nav .login-container button:hover {
+  background-color: #0e002b;
+}
